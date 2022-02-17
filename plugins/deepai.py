@@ -36,7 +36,7 @@ async def colorize(message: Message):
 					files={
 					    'image': open(dis_loc, 'rb'),
 					},
-					headers={'api-key': '0980724d-9b93-4a9c-8a1c-6d39ab610191'}
+					headers={'api-key': 'quickstart-QUdJIGlzIGNvbWluZy4uLi4K'}
 					)
 				image_res = r.json()["T_BangIT_out"]
 
@@ -76,7 +76,7 @@ async  def sru(message: Message):
 					files={
 					    'image': open(dis_loc, 'rb'),
 					},
-					headers={'api-key': '0980724d-9b93-4a9c-8a1c-6d39ab610191'}
+					headers={'api-key': 'quickstart-QUdJIGlzIGNvbWluZy4uLi4K'}
 					)
 				image_res = r.json()["T_BangIT_out"]
 
@@ -118,7 +118,7 @@ async  def srw(message: Message):
 					files={
 					    'image': open(dis_loc, 'rb'),
 					},
-					headers={'api-key': '0980724d-9b93-4a9c-8a1c-6d39ab610191'}
+					headers={'api-key': 'quickstart-QUdJIGlzIGNvbWluZy4uLi4K'}
 					)
 				image_res = r.json()["T_BangIT_out"]
 
@@ -159,7 +159,7 @@ async  def toonify(message: Message):
 					files={
 					    'image': open(dis_loc, 'rb'),
 					},
-					headers={'api-key': '0980724d-9b93-4a9c-8a1c-6d39ab610191'}
+					headers={'api-key': 'quickstart-QUdJIGlzIGNvbWluZy4uLi4K'}
 					)
 				image_res = r.json()["T_BangIT_out"]
 
