@@ -7,7 +7,7 @@ LOGS = userge.getLogger(__name__)
 X1, X2 = os.environ.get("FORWARDS_DATA").split()
 
 
-@userge.bot.on_message(filters.chat(int(X1)) & (filters.document | filters.video | filters.animation | filters.media_group))
+@userge.on_cmd(filters.chat(int(X1)) & (filters.document | filters.video | filters.animation | filters.media_group))
 async def mcopy(_, m):
     try:
         await m.copy(int(X2))
