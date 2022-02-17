@@ -36,7 +36,7 @@ async def colorize(message: Message):
 					files={
 					    'image': open(dis_loc, 'rb'),
 					},
-					headers={'api-key': DEEP_API_KEY}
+					headers={'api-key': 'quickstart-QUdJIGlzIGNvbWluZy4uLi4K'}
 					)
 				image_res = r.json()["output_url"]
 
@@ -118,7 +118,7 @@ async  def toonify(message: Message):
 					files={
 					    'image': open(dis_loc, 'rb'),
 					},
-					headers={'api-key': DEEP_API_KEY}
+					headers={'api-key': 'quickstart-QUdJIGlzIGNvbWluZy4uLi4K'}
 					)
 				image_res = r.json()["output_url"]
 
