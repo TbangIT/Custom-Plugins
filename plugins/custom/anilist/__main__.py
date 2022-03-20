@@ -15,8 +15,9 @@ import humanize
 import tracemoepy
 from aiohttp import ClientSession
 from html_telegraph_poster import TelegraphPoster
+from userge import userge, config as Config
 
-from userge import userge, Message, get_collection, Config
+from userge import userge, Message, get_collection
 from userge.utils import progress, take_screen_shot
 
 # Logging Errors
