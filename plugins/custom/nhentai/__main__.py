@@ -4,7 +4,7 @@
 # you may not use this file except in compliance with the License.
 #
 
-import re
+import regex
 
 from hentai import Hentai, Utils
 from natsort import natsorted
